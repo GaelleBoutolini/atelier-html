@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <div class="contact-un">
+        
+<form class="form">
+    <h2 class="h2">Client</h2>
+    <div class="form-row " >
+        <label for="gender">Civilité:</label>
+      
+    <input type="radio" name="gender" id="radio"  value="male"> Male
+    <input type="radio" name="gender" id="radio"  value="female"> Female
+</div>
+<br>
+      <div class="form-row">
+        <label for="name">Nom/Prénom: </label>
+        <input type="text" name="name" id="name" >
+      </div>
+      <br>
+      <div class="form-row">
+        <label for="address"> Adresse : </label>
+        <input type="adress" name="adress" id="adress" >
+      </div>
+      <br>
+      <div class="form-row">
+        <label for="n° postal/localité">N° postal </label>
+        <input type="n° postal/localité" name="n° postal/localité" id="n° postal/localité" >
+      </div>
+      <br>
+      <div class="localité">
+        <label for="localité"> Localité : </label>
+        <input type="localité" name="localité" id="localité" >
+      </div>
+      <br>
+      <label for="pet-select">Pays</label>
+<select name="pets" id="pet-select">
+    <option value=""></option>
+    <option value="suisse">Suisse</option>
+    <option value="france">France</option>
+    <option value="gabon">Gabon</option>
+    <option value="senegal">Sénégal</option>
+    <option value="Guinnée">Guinée</option>
+    <option value="Espagne">Espagne</option>
+</select>
+    <br>
+      <div class="form-row">
+        <label for="gender">Plateforme(s)</label>
+        <br>
+    <input type="radio" name="gender" id="radio"  value="male"> Windows
+    <input type="radio" name="gender" id="radio"  value="female"> Macintosh
+    <input type="radio" name="gender" id="radio"  value="female"> Unix
+</div>
+<br>
+<label for="pet-select">Application(s)</label>
+<select name="pets" id="pet-select">
+    <option value=""></option>
+    <option value="bureautique">Bureautique</option>
+    <option value="dao">DAO</option>
+    <option value="statistiques">Statistiques</option>
+    <option value="sgbd">SGBD</option>
+    <option value="internet">Internet</option>
+    <option value="Espagne">Espagne</option>
+</select>
+<br>
+<br>
+      <div class="form-button">
+        <button type="submit" id="submit-btn">Soumettre</button>
+        <br>
+        <button type="submit" id="submit-btn">Effacer</button>
+      </div>
+    </form>
+
+    
+</body>
+</html>
