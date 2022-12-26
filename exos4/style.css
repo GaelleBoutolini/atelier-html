@@ -1,7 +1,7 @@
 .form{
     width: 25vw; /*Ne prend que 40% du body*/
     height: auto;
-    background: rgb(180, 68, 86);
+    background: rgba(190, 92, 109, 0.724);
     /*inset: 70%; /*sert à positionner**/
     margin: 30px auto; /*pour les 4 valeurs:0 poour top/bottom*/
     border: 2px solid black;
@@ -24,7 +24,7 @@
     width: 100%;
     font-size: 1.5rem;
     padding: 1rem;
-    background: rgb(96, 96, 52);
+    background: rgba(175, 175, 139, 0.759);
 }
 .form-button button:hover{
     background: rgb(93, 123, 93);

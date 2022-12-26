@@ -4,9 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Exos6</title>
 </head>
 <body>
-    
+    <div class="titre">
+        <h1>Les éléments de saisie</h1>
+    </div>
+        <form class="form" >
+            <h2>1er formulaire</h2>
+            <div class="form-row">
+                <label for="date">Date: </label>
+                <input type="date" id="start" name="date" value="date">
+                </div>
+            <div class="form-row">
+                <label for="appt">Heure : </label>
+                <input type="time" id="appt" name="appt" >
+            </div>
+            <div class="form-row">
+                <label for="">Dtae et heure : </label>
+                <input type="datetime-local" id="meeting-time" name="meeting-time" value="">
+            </div>
+            <div class="form-row">
+                <label for="start">Mois : </label>
+                <input type="mois" id="start" name="start" value=""> 
+            </div>
+            <div class="form-row">
+                <label for="week">Semaine: </label>
+                <input type="week" name="week" id="camp-week" min="" max="" required>
+                <br>
+                <br>
+                </div>
+                <div class="btn">
+                    <button type="submit" id="submit-btn">Envoyer</button>
+            </div>
+        </form> 
+
+    <div class="titre1">
+        <h1>L'élément de saisie</h1>
+    </div>
+        <form class="form" >
+            <h2>2ème formulaire</h2>
+            <div class="form-row">
+                 <label for="salaire">Salaire idéal: </label>
+                <input type="salaire" id="salaire" name="salaire" value="">
+                </div>
+            <div class="form-row">
+                <label for="volume">Etat de bonheur actuel: </label>
+                <input type="range" id="volule" name="volume" min="0" max="11">
+            </div>
+            <div class="form-row">
+                <label for="">Num Téléphone: </label>
+                <input type="téléh" id="meeting-time" name="meeting-time" value="">
+            </div>
+            <div class="form-row">
+                <label for="start">Email: </label>
+                <input type="email" id="email" pattern=".@globex\.com" size="30" required> 
+            </div>
+            <div class="form-row">
+                <label for="url">Site web: </label>
+                <input type="url" name="url" id="url" placeholder="https://exemple.com" pattern="https://.*" size="30" required>
+                </div>
+            <div class="form-row">
+                <label for="color">Couleur favorite: </label>
+                <input type="color" name="body" id="body" value="#f6b73c">
+                </div>
+            <div class="form-row">
+                <label for="file">Choisir un fichier: </label>
+                <input type="file" name="avater" id="avatar" accept="image/png, image/jpeg">
+                </div>
+            <div class="form-row">
+                <label for="number">Choisir un nombre: </label>
+                <input type="number" name="number" id="avatar" name="number" min="5" max="100">
+                </div>
+            <div class="form-row">
+                <label for="recherche">Chaine de rechrche: </label>
+                <input type="search" name="number" id="chaine-rechrche" name="q">
+                <button>recherche</button>
+                </div>
+                <div class="btn">
+                    <button type="submit" id="submit-btn">Envoyer</button>
+            </div>
+        </form>   
+        
+        
+  <!----      <div class="contactez-nous">
+            <h1>Contactez-nous</h1>
+            <p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+            <form action="/page-traitement-donnees" method="post">
+            <div>
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Martin" required>
+            </div>
+            <div>
+            <label for="email">Votre e-mail</label>
+            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+            <label for="sujet">Quel est le sujet de votre message ?</label>
+            <select name="sujet" id="sujet" required>
+            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+            <option value="probleme-compte">Problème avec mon compte</option>
+            <option value="question-produit">Question à propos d’un produit</option>
+            <option value="suivi-commande">Suivi de ma commande</option>
+            <option value="autre">Autre...</option>
+            </select>
+            </div>
+            <div>
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+            </div>
+            <div>
+            <button type="submit">Envoyer mon message</button>
+            </div>
+            </form>
+            </div>-->
 </body>
 </html>
